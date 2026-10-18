@@ -8,7 +8,7 @@ Approved 2026-10-18. The SVGs are the sources; the PNGs are renders of them.
 | `smeltworks-square.svg`, `smeltworks-avatar-512.png` | Square-cornered variant for places that apply their own mask: the GitHub org avatar, `apple-touch-icon.png`. |
 | `smeltworks-{16,32,128,512}.png` | Rendered sizes of the rounded icon. |
 | `cnx.svg` | cnx icon: a copper C and the `<-` assignment arrow on the same iron tile. The C is outlined from Arial Black, so no font is needed. |
-| `cnx-{16,32,128,512}.png` | Rendered sizes. `cnx-128.png` fits the VS Code Marketplace icon. |
+| `cnx-{16,32,128,256,512}.png` | Rendered sizes. `cnx-256.png` is the VS Code Marketplace icon (sharp on high-density screens). |
 
 ## Palette
 
@@ -24,7 +24,7 @@ Approved 2026-10-18. The SVGs are the sources; the PNGs are renders of them.
 ## Regenerating the PNGs
 
 ```sh
-for s in 16 32 128 512; do
+for s in 16 32 128 256 512; do
   inkscape brand/smeltworks.svg -w $s -h $s -o brand/smeltworks-$s.png
   inkscape brand/cnx.svg -w $s -h $s -o brand/cnx-$s.png
 done
