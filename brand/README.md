@@ -9,6 +9,7 @@ Approved 2026-10-18. The SVGs are the sources; the PNGs are renders of them.
 | `smeltworks-{16,32,128,512}.png` | Rendered sizes of the rounded icon. |
 | `cnx.svg` | cnx icon: a copper C and the `<-` assignment arrow on the same iron tile. The C is outlined from Arial Black, so no font is needed. |
 | `cnx-{16,32,128,256,512}.png` | Rendered sizes. `cnx-256.png` is the VS Code Marketplace icon (sharp on high-density screens). |
+| `cnx-social-preview.svg`, `cnx-social-preview.png` | 1280×640 social preview for smeltworks/cnx and the VS Code extension's repository (Settings → General → Social preview). Text is outlined; it was set in DejaVu Sans Mono Bold and Ubuntu. |
 
 ## Palette
 
