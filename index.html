@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>smeltworks</title>
+  <meta name="description" content="smeltworks: home of cnx, a safer C for embedded systems that transpiles to clean, readable C.">
+  <style>
+    :root {
+      --background: #f7f5f2;
+      --text: #1d1b19;
+      --muted: #6b645c;
+      --copper: #a8592a;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #151311;
+        --text: #ece6df;
+        --muted: #9b9188;
+        --copper: #d98a4e;
+      }
+    }
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font: 18px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+    main {
+      max-width: 36rem;
+      margin: 0 auto;
+      padding: 18vh 16px 4rem;
+    }
+    h1 {
+      margin: 0 0 1rem;
+      font: 600 2.5rem/1.1 ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+      letter-spacing: -0.02em;
+    }
+    h1 span { color: var(--copper); }
+    p { margin: 0 0 1rem; }
+    .ethos { color: var(--muted); font-style: italic; }
+    ul { list-style: none; padding: 0; margin: 2rem 0 0; display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; }
+    a { color: var(--copper); text-underline-offset: 0.2em; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>smelt<span>works</span></h1>
+    <p>Home of <strong>cnx</strong>: a safer C for embedded systems that transpiles to clean, readable C.</p>
+    <p class="ethos">Safety through removal, not addition.</p>
+    <ul>
+      <li><a href="https://github.com/jlaustill/c-next">cnx on GitHub</a></li>
+      <li><a href="https://github.com/smeltworks">github.com/smeltworks</a></li>
+    </ul>
+  </main>
+</body>
+</html>
