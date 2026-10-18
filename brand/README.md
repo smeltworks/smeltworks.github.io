@@ -24,8 +24,10 @@ Approved 2026-10-18. The SVGs are the sources; the PNGs are renders of them.
 ## Regenerating the PNGs
 
 ```sh
-for s in 16 32 128 256 512; do
+for s in 16 32 128 512; do
   inkscape brand/smeltworks.svg -w $s -h $s -o brand/smeltworks-$s.png
+done
+for s in 16 32 128 256 512; do
   inkscape brand/cnx.svg -w $s -h $s -o brand/cnx-$s.png
 done
 inkscape brand/smeltworks-square.svg -w 512 -h 512 -o brand/smeltworks-avatar-512.png
